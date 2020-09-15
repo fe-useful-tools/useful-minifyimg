@@ -2,6 +2,7 @@
   "name": "useful-minifyimg",
   "version": "0.0.1",
   "description": "minifyimg",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,9 +10,42 @@
     "type": "git",
     "url": "git+https://github.com/fe-useful-tools/useful-minifyimg.git"
   },
+  "bin": {
+    "minifyimg": "./lib/index.js"
+  },
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "cli",
+    "compress",
+    "imagemin",
+    "minifyimg",
+    "gif",
+    "image",
+    "jpeg",
+    "jpg",
+    "minify",
+    "png",
+    "svg",
+    "webp"
+  ],
   "author": "kingmui<muikinghk@yahoo.com.hk>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "arrify": "^2.0.1",
+    "del": "^5.1.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "imagemin-webp": "^6.0.0",
+    "junk": "^3.1.0",
+    "meow": "^7.1.1",
+    "ora": "^5.0.0",
+    "p-pipe": "^3.1.0",
+    "plur": "^4.0.0",
+    "replace-ext": "^2.0.0",
+    "strip-indent": "^3.0.0"
+  }
 }

@@ -1,0 +1,6 @@
+{
+  "inputDir": "src/images/**/*",
+  "outDir": "assets/images",
+  "useWebp": false,
+  "deepCopy": true
+}
